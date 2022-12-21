@@ -1,9 +1,9 @@
 function solve() {
 
-    let jarVolume = Number(document.getElementById('jarVolume').value);
-    let jarPrice = Number(document.getElementById('jarPrice').value);
-    let capPrice = Number(document.getElementById('capPrice').value);
-    let honeyJarPrice = Number(document.getElementById('honeyJarPrice').value);
+    let jarVolume = Number(document.getElementById('jarVolumeBtn').value);
+    let jarPrice = Number(document.getElementById('jarPriceBtn').value);
+    let capPrice = Number(document.getElementById('capPriceBtn').value);
+    let honeyJarPrice = Number(document.getElementById('honeyJarPriceBtn').value);
 
     //let resultElement = document.getElementById('honeyPrice');
 

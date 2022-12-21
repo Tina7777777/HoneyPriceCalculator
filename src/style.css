@@ -25,8 +25,8 @@ main input {
     margin: 1rem auto;
 }
 
-#daysBtn, #hoursBtn, #minutesBtn, #secondsBtn {
-    background: gray;
+#jarVolumeBtn, #jarPriceBtn, #capPriceBtn, #honeyJarPriceBtn {
+    background: #E91E63;
     width: 18%;
     border: 2px solid gray;
     border-radius: 4px;
