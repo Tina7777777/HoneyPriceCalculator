@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HoneyPrice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+    <main>
+        <h1>Цена на килограм мед</h1>
+        <div>
+            <label for="jarVolume">Вместимост на буркан(кг): </label>
+            <input type="text" id="jarVolume">
+            <!-- <input id="daysBtn" type="button" value="Convert"> -->
+        </div>
+        <div>
+            <label for="jarPrice">Цена на буркан: </label>
+            <input type="text" id="jarPrice">
+            <!-- <input id="hoursBtn" type="button" value="Convert"> -->
+        </div>
+        <div>
+            <label for="capPrice">Цена на капачка: </label>
+            <input type="text" id="capPrice">
+            <!-- <input id="minutesBtn" type="button" value="Convert"> -->
+        </div>
+        <div>
+            <label for="honeyJarPrice">Цена на буркан мед: </label>
+            <input type="text" id="honeyJarPrice">
+            <!-- <input id="secondsBtn" type="button" value="Convert"> -->
+        </div>
+        <!-- <div> -->
+            <!-- <label for="honeyJarPrice">Цена на буркан с мед: </label> -->
+            <!-- <input type="text" id="honeyJarPrice"> -->
+            <!-- <input id="honeyJarPriceBtn" type="button" value="Изчисли"> -->
+        <!-- </div> -->
+        <input type="button" onclick="solve()" value="Изчисли">
+    </form>
+    <div class="result-container">Цена на килограм мед: <span id="result"></span></div>
+    </main>
+</body>
+
+<script src="solution.js"></script>
+
+</html>
